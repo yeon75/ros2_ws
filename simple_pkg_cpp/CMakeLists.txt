@@ -10,6 +10,7 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(OpenCV REQUIRED)
+find_package(example_interfaces REQUIRED)
 
 # include directories
 include_directories(include)
@@ -38,6 +39,15 @@ ament_target_dependencies(hello_subscriber_class rclcpp std_msgs)
 add_executable(time_publisher_class src/time_publisher_class.cpp src/time_pub.cpp)
 ament_target_dependencies(time_publisher_class rclcpp std_msgs)
 
+add_executable(time_subscriber_class src/time_subscriber_class.cpp src/time_sub.cpp)
+ament_target_dependencies(time_subscriber_class rclcpp std_msgs)
+
+add_executable(simple_service_server src/simple_service_server.cpp)
+ament_target_dependencies(simple_service_server rclcpp std_msgs example_interfaces)
+
+add_executable(simple_service_client src/simple_service_client.cpp)
+ament_target_dependencies(simple_service_client rclcpp std_msgs example_interfaces)
+
 # install
 install(TARGETS
   helloworld
@@ -47,6 +57,10 @@ install(TARGETS
   hello_publisher_class
   hello_publisher_class2
   hello_subscriber_class
+  time_publisher_class
+  time_subscriber_class
+  simple_service_server
+  simple_service_client
   DESTINATION lib/${PROJECT_NAME}
 )
 
