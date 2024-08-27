@@ -1,17 +1,28 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
+<<<<<<<< HEAD:build/simple_pkg_cpp/ament_cmake_core/stamps/package.xml.stamp
   <name>simple_pkg_cpp</name>
   <version>0.0.0</version>
   <description>my ros2 project</description>
   <maintainer email="yeon007500@gmail.com">yeon</maintainer>
   <license>Apache 2.0</license>
+========
+  <name>topic_final</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="freshmea@naver.com">aa</maintainer>
+  <license>TODO: License declaration</license>
+>>>>>>>> 4c314d0974564ad18139866bb46bbe2af8dc05e4:topic_final/package.xml
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <depend>rclcpp</depend>
   <depend>std_msgs</depend>
+<<<<<<<< HEAD:build/simple_pkg_cpp/ament_cmake_core/stamps/package.xml.stamp
   <depend>OpenCV</depend>
+========
+>>>>>>>> 4c314d0974564ad18139866bb46bbe2af8dc05e4:topic_final/package.xml
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
