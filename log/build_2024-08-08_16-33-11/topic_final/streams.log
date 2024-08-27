@@ -1,0 +1,36 @@
+[0.107s] Invoking command in '/home/yeon/ros2_workspace/src/ros2_ws/build/topic_final': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yeon/ros2_workspace/src/ros2_ws/build/topic_final -- -j2 -l2
+[0.401s] [35m[1mConsolidate compiler generated dependencies of target mpub[0m
+[0.593s] [ 20%] Built target mpub
+[0.762s] [35m[1mConsolidate compiler generated dependencies of target msub[0m
+[0.953s] [ 40%] Built target msub
+[1.111s] [35m[1mConsolidate compiler generated dependencies of target msub2[0m
+[1.229s] [ 60%] Built target msub2
+[1.316s] [35m[1mConsolidate compiler generated dependencies of target tpub[0m
+[1.447s] [ 80%] Built target tpub
+[1.544s] [35m[1mConsolidate compiler generated dependencies of target mtsub[0m
+[1.752s] [100%] Built target mtsub
+[1.906s] Invoked command in '/home/yeon/ros2_workspace/src/ros2_ws/build/topic_final' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yeon/ros2_workspace/src/ros2_ws/build/topic_final -- -j2 -l2
+[2.932s] Invoking command in '/home/yeon/ros2_workspace/src/ros2_ws/build/topic_final': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yeon/ros2_workspace/src/ros2_ws/build/topic_final
+[3.127s] -- Install configuration: ""
+[3.145s] -- Execute custom install script
+[3.163s] -- Up-to-date symlink: /home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/lib/topic_final/mpub
+[3.170s] -- Up-to-date symlink: /home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/lib/topic_final/msub
+[3.170s] -- Up-to-date symlink: /home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/lib/topic_final/msub2
+[3.174s] -- Up-to-date symlink: /home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/lib/topic_final/tpub
+[3.174s] -- Up-to-date symlink: /home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/lib/topic_final/mtsub
+[3.194s] -- Up-to-date symlink: /home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/share/ament_index/resource_index/package_run_dependencies/topic_final
+[3.195s] -- Up-to-date symlink: /home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/share/ament_index/resource_index/parent_prefix_path/topic_final
+[3.201s] -- Up-to-date symlink: /home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/share/topic_final/environment/ament_prefix_path.sh
+[3.212s] -- Up-to-date symlink: /home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/share/topic_final/environment/ament_prefix_path.dsv
+[3.212s] -- Up-to-date symlink: /home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/share/topic_final/environment/path.sh
+[3.218s] -- Up-to-date symlink: /home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/share/topic_final/environment/path.dsv
+[3.219s] -- Up-to-date symlink: /home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/share/topic_final/local_setup.bash
+[3.224s] -- Up-to-date symlink: /home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/share/topic_final/local_setup.sh
+[3.224s] -- Up-to-date symlink: /home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/share/topic_final/local_setup.zsh
+[3.231s] -- Up-to-date symlink: /home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/share/topic_final/local_setup.dsv
+[3.236s] -- Symlinking: /home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/share/topic_final/package.dsv
+[3.382s] -- Up-to-date symlink: /home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/share/ament_index/resource_index/packages/topic_final
+[3.392s] -- Up-to-date symlink: /home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/share/topic_final/cmake/topic_finalConfig.cmake
+[3.397s] -- Up-to-date symlink: /home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/share/topic_final/cmake/topic_finalConfig-version.cmake
+[3.399s] -- Up-to-date symlink: /home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/share/topic_final/package.xml
+[3.416s] Invoked command in '/home/yeon/ros2_workspace/src/ros2_ws/build/topic_final' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yeon/ros2_workspace/src/ros2_ws/build/topic_final

@@ -9,6 +9,7 @@
 #include "rcutils/cmdline_parser.h"
 #include <chrono>
 #include <string>
+#include <thread>
 
 using namespace std::chrono_literals;
 using namespace std::placeholders;
@@ -25,6 +26,8 @@ public:
     void service_callback(const std::shared_ptr<ArithmeticOperator::Request> request, std::shared_ptr<ArithmeticOperator::Response> response);
 
 private:
+    std::string _operator_str;
+    std::string _formula_str;
     float _sub_a;
     float _sub_b;
     int8_t _argument_operator;
@@ -36,7 +39,9 @@ private:
     rclcpp::Service<ArithmeticOperator>::SharedPtr _service;
     rclcpp_action::Server<ArithmeticChecker>::SharedPtr _action_server;
 
+    void handle_accepted(const std::shared_ptr<GoalHandleArithmeticChecker> goal_handle);
     void sub_callback(const interface_example::msg::ArithmeticArgument::SharedPtr msg);
+
     rclcpp_action::GoalResponse handle_goal(const rclcpp_action::GoalUUID &uuid, std::shared_ptr<const ArithmeticChecker::Goal> goal_handle);
     rclcpp_action::CancelResponse handle_cancel(const std::shared_ptr<GoalHandleArithmeticChecker> goal_handle);
     void execute_checker(const std::shared_ptr<GoalHandleArithmeticChecker> goal_handle);

@@ -1,0 +1,10 @@
+{
+  "package_name": "interface_example",
+  "non_idl_tuples": [
+    "/home/yeon/ros2_workspace/src/ros2_ws/interface_example:msg/ArithmeticArgument.msg",
+    "/home/yeon/ros2_workspace/src/ros2_ws/interface_example:srv/AddTwoInt.srv",
+    "/home/yeon/ros2_workspace/src/ros2_ws/interface_example:srv/ArithmeticOperator.srv",
+    "/home/yeon/ros2_workspace/src/ros2_ws/interface_example:action/Fibonacci.action",
+    "/home/yeon/ros2_workspace/src/ros2_ws/interface_example:action/ArithmeticChecker.action"
+  ]
+}

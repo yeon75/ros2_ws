@@ -1,0 +1,8 @@
+source;share/movesim/hook/cmake_prefix_path.ps1
+source;share/movesim/hook/cmake_prefix_path.dsv
+source;share/movesim/hook/cmake_prefix_path.sh
+source;share/movesim/local_setup.bash
+source;share/movesim/local_setup.dsv
+source;share/movesim/local_setup.ps1
+source;share/movesim/local_setup.sh
+source;share/movesim/local_setup.zsh

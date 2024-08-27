@@ -1,0 +1,8 @@
+source;share/arithmetic/hook/cmake_prefix_path.ps1
+source;share/arithmetic/hook/cmake_prefix_path.dsv
+source;share/arithmetic/hook/cmake_prefix_path.sh
+source;share/arithmetic/local_setup.bash
+source;share/arithmetic/local_setup.dsv
+source;share/arithmetic/local_setup.ps1
+source;share/arithmetic/local_setup.sh
+source;share/arithmetic/local_setup.zsh

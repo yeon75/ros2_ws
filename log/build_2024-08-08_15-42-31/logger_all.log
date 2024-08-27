@@ -1,0 +1,401 @@
+[0.906s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.907s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x79440a43ace0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79440a53f310>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79440a53f310>>, mixin_verb=('build',))
+[2.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.143s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yeon/ros2_workspace/src/ros2_ws'
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(arithmetic) by extensions ['ignore', 'ignore_ament_install']
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(arithmetic) by extension 'ignore'
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(arithmetic) by extension 'ignore_ament_install'
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(arithmetic) by extensions ['colcon_pkg']
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(arithmetic) by extension 'colcon_pkg'
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(arithmetic) by extensions ['colcon_meta']
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(arithmetic) by extension 'colcon_meta'
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(arithmetic) by extensions ['ros']
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(arithmetic) by extension 'ros'
+[2.218s] DEBUG:colcon.colcon_core.package_identification:Package 'arithmetic' with type 'ros.ament_cmake' and name 'arithmetic'
+[2.218s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.219s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.220s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.220s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.220s] Level 1:colcon.colcon_core.package_identification:_identify(interface_example) by extensions ['ignore', 'ignore_ament_install']
+[2.223s] Level 1:colcon.colcon_core.package_identification:_identify(interface_example) by extension 'ignore'
+[2.223s] Level 1:colcon.colcon_core.package_identification:_identify(interface_example) by extension 'ignore_ament_install'
+[2.223s] Level 1:colcon.colcon_core.package_identification:_identify(interface_example) by extensions ['colcon_pkg']
+[2.223s] Level 1:colcon.colcon_core.package_identification:_identify(interface_example) by extension 'colcon_pkg'
+[2.224s] Level 1:colcon.colcon_core.package_identification:_identify(interface_example) by extensions ['colcon_meta']
+[2.224s] Level 1:colcon.colcon_core.package_identification:_identify(interface_example) by extension 'colcon_meta'
+[2.224s] Level 1:colcon.colcon_core.package_identification:_identify(interface_example) by extensions ['ros']
+[2.224s] Level 1:colcon.colcon_core.package_identification:_identify(interface_example) by extension 'ros'
+[2.227s] DEBUG:colcon.colcon_core.package_identification:Package 'interface_example' with type 'ros.ament_cmake' and name 'interface_example'
+[2.228s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.229s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.229s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.229s] Level 1:colcon.colcon_core.package_identification:_identify(movesim) by extensions ['ignore', 'ignore_ament_install']
+[2.229s] Level 1:colcon.colcon_core.package_identification:_identify(movesim) by extension 'ignore'
+[2.230s] Level 1:colcon.colcon_core.package_identification:_identify(movesim) by extension 'ignore_ament_install'
+[2.230s] Level 1:colcon.colcon_core.package_identification:_identify(movesim) by extensions ['colcon_pkg']
+[2.230s] Level 1:colcon.colcon_core.package_identification:_identify(movesim) by extension 'colcon_pkg'
+[2.230s] Level 1:colcon.colcon_core.package_identification:_identify(movesim) by extensions ['colcon_meta']
+[2.230s] Level 1:colcon.colcon_core.package_identification:_identify(movesim) by extension 'colcon_meta'
+[2.230s] Level 1:colcon.colcon_core.package_identification:_identify(movesim) by extensions ['ros']
+[2.230s] Level 1:colcon.colcon_core.package_identification:_identify(movesim) by extension 'ros'
+[2.236s] DEBUG:colcon.colcon_core.package_identification:Package 'movesim' with type 'ros.ament_cmake' and name 'movesim'
+[2.237s] Level 1:colcon.colcon_core.package_identification:_identify(simple_pkg_cpp) by extensions ['ignore', 'ignore_ament_install']
+[2.237s] Level 1:colcon.colcon_core.package_identification:_identify(simple_pkg_cpp) by extension 'ignore'
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(simple_pkg_cpp) by extension 'ignore_ament_install'
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(simple_pkg_cpp) by extensions ['colcon_pkg']
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(simple_pkg_cpp) by extension 'colcon_pkg'
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(simple_pkg_cpp) by extensions ['colcon_meta']
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(simple_pkg_cpp) by extension 'colcon_meta'
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(simple_pkg_cpp) by extensions ['ros']
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(simple_pkg_cpp) by extension 'ros'
+[2.243s] DEBUG:colcon.colcon_core.package_identification:Package 'simple_pkg_cpp' with type 'ros.ament_cmake' and name 'simple_pkg_cpp'
+[2.244s] Level 1:colcon.colcon_core.package_identification:_identify(topic_final) by extensions ['ignore', 'ignore_ament_install']
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(topic_final) by extension 'ignore'
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(topic_final) by extension 'ignore_ament_install'
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(topic_final) by extensions ['colcon_pkg']
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(topic_final) by extension 'colcon_pkg'
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(topic_final) by extensions ['colcon_meta']
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(topic_final) by extension 'colcon_meta'
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(topic_final) by extensions ['ros']
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(topic_final) by extension 'ros'
+[2.251s] DEBUG:colcon.colcon_core.package_identification:Package 'topic_final' with type 'ros.ament_cmake' and name 'topic_final'
+[2.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.391s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/yeon/ros2_workspace/install
+[2.396s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 378 installed packages in /opt/ros/humble
+[2.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.648s] Level 5:colcon.colcon_core.verb:set package 'interface_example' build argument 'cmake_args' from command line to 'None'
+[2.649s] Level 5:colcon.colcon_core.verb:set package 'interface_example' build argument 'cmake_target' from command line to 'None'
+[2.649s] Level 5:colcon.colcon_core.verb:set package 'interface_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.649s] Level 5:colcon.colcon_core.verb:set package 'interface_example' build argument 'cmake_clean_cache' from command line to 'False'
+[2.649s] Level 5:colcon.colcon_core.verb:set package 'interface_example' build argument 'cmake_clean_first' from command line to 'False'
+[2.649s] Level 5:colcon.colcon_core.verb:set package 'interface_example' build argument 'cmake_force_configure' from command line to 'False'
+[2.649s] Level 5:colcon.colcon_core.verb:set package 'interface_example' build argument 'ament_cmake_args' from command line to 'None'
+[2.649s] Level 5:colcon.colcon_core.verb:set package 'interface_example' build argument 'catkin_cmake_args' from command line to 'None'
+[2.649s] Level 5:colcon.colcon_core.verb:set package 'interface_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.649s] DEBUG:colcon.colcon_core.verb:Building package 'interface_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yeon/ros2_workspace/src/ros2_ws/build/interface_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example', 'merge_install': False, 'path': '/home/yeon/ros2_workspace/src/ros2_ws/interface_example', 'symlink_install': True, 'test_result_base': None}
+[2.650s] Level 5:colcon.colcon_core.verb:set package 'movesim' build argument 'cmake_args' from command line to 'None'
+[2.650s] Level 5:colcon.colcon_core.verb:set package 'movesim' build argument 'cmake_target' from command line to 'None'
+[2.650s] Level 5:colcon.colcon_core.verb:set package 'movesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.650s] Level 5:colcon.colcon_core.verb:set package 'movesim' build argument 'cmake_clean_cache' from command line to 'False'
+[2.650s] Level 5:colcon.colcon_core.verb:set package 'movesim' build argument 'cmake_clean_first' from command line to 'False'
+[2.650s] Level 5:colcon.colcon_core.verb:set package 'movesim' build argument 'cmake_force_configure' from command line to 'False'
+[2.650s] Level 5:colcon.colcon_core.verb:set package 'movesim' build argument 'ament_cmake_args' from command line to 'None'
+[2.650s] Level 5:colcon.colcon_core.verb:set package 'movesim' build argument 'catkin_cmake_args' from command line to 'None'
+[2.650s] Level 5:colcon.colcon_core.verb:set package 'movesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.650s] DEBUG:colcon.colcon_core.verb:Building package 'movesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yeon/ros2_workspace/src/ros2_ws/build/movesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yeon/ros2_workspace/src/ros2_ws/install/movesim', 'merge_install': False, 'path': '/home/yeon/ros2_workspace/src/ros2_ws/movesim', 'symlink_install': True, 'test_result_base': None}
+[2.653s] Level 5:colcon.colcon_core.verb:set package 'simple_pkg_cpp' build argument 'cmake_args' from command line to 'None'
+[2.653s] Level 5:colcon.colcon_core.verb:set package 'simple_pkg_cpp' build argument 'cmake_target' from command line to 'None'
+[2.653s] Level 5:colcon.colcon_core.verb:set package 'simple_pkg_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.653s] Level 5:colcon.colcon_core.verb:set package 'simple_pkg_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[2.653s] Level 5:colcon.colcon_core.verb:set package 'simple_pkg_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[2.653s] Level 5:colcon.colcon_core.verb:set package 'simple_pkg_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[2.653s] Level 5:colcon.colcon_core.verb:set package 'simple_pkg_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[2.653s] Level 5:colcon.colcon_core.verb:set package 'simple_pkg_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[2.654s] Level 5:colcon.colcon_core.verb:set package 'simple_pkg_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.654s] DEBUG:colcon.colcon_core.verb:Building package 'simple_pkg_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yeon/ros2_workspace/src/ros2_ws/build/simple_pkg_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp', 'merge_install': False, 'path': '/home/yeon/ros2_workspace/src/ros2_ws/simple_pkg_cpp', 'symlink_install': True, 'test_result_base': None}
+[2.658s] Level 5:colcon.colcon_core.verb:set package 'topic_final' build argument 'cmake_args' from command line to 'None'
+[2.658s] Level 5:colcon.colcon_core.verb:set package 'topic_final' build argument 'cmake_target' from command line to 'None'
+[2.658s] Level 5:colcon.colcon_core.verb:set package 'topic_final' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.658s] Level 5:colcon.colcon_core.verb:set package 'topic_final' build argument 'cmake_clean_cache' from command line to 'False'
+[2.658s] Level 5:colcon.colcon_core.verb:set package 'topic_final' build argument 'cmake_clean_first' from command line to 'False'
+[2.658s] Level 5:colcon.colcon_core.verb:set package 'topic_final' build argument 'cmake_force_configure' from command line to 'False'
+[2.658s] Level 5:colcon.colcon_core.verb:set package 'topic_final' build argument 'ament_cmake_args' from command line to 'None'
+[2.660s] Level 5:colcon.colcon_core.verb:set package 'topic_final' build argument 'catkin_cmake_args' from command line to 'None'
+[2.661s] Level 5:colcon.colcon_core.verb:set package 'topic_final' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.661s] DEBUG:colcon.colcon_core.verb:Building package 'topic_final' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yeon/ros2_workspace/src/ros2_ws/build/topic_final', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final', 'merge_install': False, 'path': '/home/yeon/ros2_workspace/src/ros2_ws/topic_final', 'symlink_install': True, 'test_result_base': None}
+[2.662s] Level 5:colcon.colcon_core.verb:set package 'arithmetic' build argument 'cmake_args' from command line to 'None'
+[2.663s] Level 5:colcon.colcon_core.verb:set package 'arithmetic' build argument 'cmake_target' from command line to 'None'
+[2.663s] Level 5:colcon.colcon_core.verb:set package 'arithmetic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.663s] Level 5:colcon.colcon_core.verb:set package 'arithmetic' build argument 'cmake_clean_cache' from command line to 'False'
+[2.663s] Level 5:colcon.colcon_core.verb:set package 'arithmetic' build argument 'cmake_clean_first' from command line to 'False'
+[2.663s] Level 5:colcon.colcon_core.verb:set package 'arithmetic' build argument 'cmake_force_configure' from command line to 'False'
+[2.663s] Level 5:colcon.colcon_core.verb:set package 'arithmetic' build argument 'ament_cmake_args' from command line to 'None'
+[2.663s] Level 5:colcon.colcon_core.verb:set package 'arithmetic' build argument 'catkin_cmake_args' from command line to 'None'
+[2.663s] Level 5:colcon.colcon_core.verb:set package 'arithmetic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.663s] DEBUG:colcon.colcon_core.verb:Building package 'arithmetic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yeon/ros2_workspace/src/ros2_ws/build/arithmetic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic', 'merge_install': False, 'path': '/home/yeon/ros2_workspace/src/ros2_ws/arithmetic', 'symlink_install': True, 'test_result_base': None}
+[2.666s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.668s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.670s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yeon/ros2_workspace/src/ros2_ws/interface_example' with build type 'ament_cmake'
+[2.671s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yeon/ros2_workspace/src/ros2_ws/interface_example'
+[2.692s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.693s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.693s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.721s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yeon/ros2_workspace/src/ros2_ws/movesim' with build type 'ament_cmake'
+[2.721s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yeon/ros2_workspace/src/ros2_ws/movesim'
+[2.722s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.722s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeon/ros2_workspace/src/ros2_ws/build/interface_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yeon/ros2_workspace/src/ros2_ws/interface_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example
+[2.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeon/ros2_workspace/src/ros2_ws/build/movesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yeon/ros2_workspace/src/ros2_ws/movesim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yeon/ros2_workspace/src/ros2_ws/install/movesim
+[21.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeon/ros2_workspace/src/ros2_ws/build/interface_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yeon/ros2_workspace/src/ros2_ws/interface_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example
+[21.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeon/ros2_workspace/src/ros2_ws/build/interface_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yeon/ros2_workspace/src/ros2_ws/build/interface_example -- -j2 -l2
+[23.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeon/ros2_workspace/src/ros2_ws/build/movesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yeon/ros2_workspace/src/ros2_ws/movesim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yeon/ros2_workspace/src/ros2_ws/install/movesim
+[23.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeon/ros2_workspace/src/ros2_ws/build/movesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yeon/ros2_workspace/src/ros2_ws/build/movesim -- -j2 -l2
+[228.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeon/ros2_workspace/src/ros2_ws/build/interface_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yeon/ros2_workspace/src/ros2_ws/build/interface_example -- -j2 -l2
+[230.991s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeon/ros2_workspace/src/ros2_ws/build/interface_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yeon/ros2_workspace/src/ros2_ws/build/interface_example
+[245.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeon/ros2_workspace/src/ros2_ws/build/interface_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yeon/ros2_workspace/src/ros2_ws/build/interface_example
+[245.343s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interface_example)
+[245.594s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example' for CMake module files
+[245.612s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example' for CMake config files
+[245.618s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface_example', 'cmake_prefix_path')
+[245.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/share/interface_example/hook/cmake_prefix_path.ps1'
+[245.675s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/share/interface_example/hook/cmake_prefix_path.dsv'
+[245.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/share/interface_example/hook/cmake_prefix_path.sh'
+[245.729s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/lib'
+[245.732s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface_example', 'ld_library_path_lib')
+[245.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/share/interface_example/hook/ld_library_path_lib.ps1'
+[245.753s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/share/interface_example/hook/ld_library_path_lib.dsv'
+[245.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/share/interface_example/hook/ld_library_path_lib.sh'
+[245.766s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/bin'
+[245.766s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/lib/pkgconfig/interface_example.pc'
+[245.789s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/lib/python3.10/site-packages'
+[245.790s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/bin'
+[245.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/share/interface_example/package.ps1'
+[245.813s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/share/interface_example/package.dsv'
+[245.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/share/interface_example/package.sh'
+[245.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/share/interface_example/package.bash'
+[245.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/share/interface_example/package.zsh'
+[245.853s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/share/colcon-core/packages/interface_example)
+[247.550s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interface_example)
+[247.552s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example' for CMake module files
+[247.553s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example' for CMake config files
+[247.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface_example', 'cmake_prefix_path')
+[247.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/share/interface_example/hook/cmake_prefix_path.ps1'
+[247.585s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/share/interface_example/hook/cmake_prefix_path.dsv'
+[247.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/share/interface_example/hook/cmake_prefix_path.sh'
+[247.605s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/lib'
+[247.606s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface_example', 'ld_library_path_lib')
+[247.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/share/interface_example/hook/ld_library_path_lib.ps1'
+[247.635s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/share/interface_example/hook/ld_library_path_lib.dsv'
+[247.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/share/interface_example/hook/ld_library_path_lib.sh'
+[247.657s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/bin'
+[247.661s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/lib/pkgconfig/interface_example.pc'
+[247.671s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/lib/python3.10/site-packages'
+[247.672s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/bin'
+[247.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/share/interface_example/package.ps1'
+[247.687s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/share/interface_example/package.dsv'
+[247.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/share/interface_example/package.sh'
+[247.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/share/interface_example/package.bash'
+[247.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/share/interface_example/package.zsh'
+[247.723s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/share/colcon-core/packages/interface_example)
+[247.742s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yeon/ros2_workspace/src/ros2_ws/simple_pkg_cpp' with build type 'ament_cmake'
+[247.744s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yeon/ros2_workspace/src/ros2_ws/simple_pkg_cpp'
+[247.748s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[247.748s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[247.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeon/ros2_workspace/src/ros2_ws/build/simple_pkg_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yeon/ros2_workspace/src/ros2_ws/simple_pkg_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp
+[264.698s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeon/ros2_workspace/src/ros2_ws/build/simple_pkg_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yeon/ros2_workspace/src/ros2_ws/simple_pkg_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp
+[264.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeon/ros2_workspace/src/ros2_ws/build/simple_pkg_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yeon/ros2_workspace/src/ros2_ws/build/simple_pkg_cpp -- -j2 -l2
+[1323.962s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeon/ros2_workspace/src/ros2_ws/build/movesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yeon/ros2_workspace/src/ros2_ws/build/movesim -- -j2 -l2
+[1324.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeon/ros2_workspace/src/ros2_ws/build/movesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yeon/ros2_workspace/src/ros2_ws/build/movesim
+[1326.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeon/ros2_workspace/src/ros2_ws/build/movesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yeon/ros2_workspace/src/ros2_ws/build/movesim
+[1326.079s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(movesim)
+[1326.117s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/movesim' for CMake module files
+[1326.128s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/movesim' for CMake config files
+[1326.136s] Level 1:colcon.colcon_core.shell:create_environment_hook('movesim', 'cmake_prefix_path')
+[1326.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeon/ros2_workspace/src/ros2_ws/install/movesim/share/movesim/hook/cmake_prefix_path.ps1'
+[1326.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeon/ros2_workspace/src/ros2_ws/install/movesim/share/movesim/hook/cmake_prefix_path.dsv'
+[1326.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeon/ros2_workspace/src/ros2_ws/install/movesim/share/movesim/hook/cmake_prefix_path.sh'
+[1326.220s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/movesim/lib'
+[1326.220s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/movesim/bin'
+[1326.226s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/movesim/lib/pkgconfig/movesim.pc'
+[1326.247s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/movesim/lib/python3.10/site-packages'
+[1326.247s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/movesim/bin'
+[1326.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/movesim/share/movesim/package.ps1'
+[1326.257s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yeon/ros2_workspace/src/ros2_ws/install/movesim/share/movesim/package.dsv'
+[1326.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/movesim/share/movesim/package.sh'
+[1326.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/movesim/share/movesim/package.bash'
+[1326.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/movesim/share/movesim/package.zsh'
+[1326.279s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yeon/ros2_workspace/src/ros2_ws/install/movesim/share/colcon-core/packages/movesim)
+[1326.843s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(movesim)
+[1326.844s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/movesim' for CMake module files
+[1326.846s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/movesim' for CMake config files
+[1326.851s] Level 1:colcon.colcon_core.shell:create_environment_hook('movesim', 'cmake_prefix_path')
+[1326.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeon/ros2_workspace/src/ros2_ws/install/movesim/share/movesim/hook/cmake_prefix_path.ps1'
+[1326.860s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeon/ros2_workspace/src/ros2_ws/install/movesim/share/movesim/hook/cmake_prefix_path.dsv'
+[1326.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeon/ros2_workspace/src/ros2_ws/install/movesim/share/movesim/hook/cmake_prefix_path.sh'
+[1326.883s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/movesim/lib'
+[1326.884s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/movesim/bin'
+[1326.886s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/movesim/lib/pkgconfig/movesim.pc'
+[1326.887s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/movesim/lib/python3.10/site-packages'
+[1326.887s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/movesim/bin'
+[1326.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/movesim/share/movesim/package.ps1'
+[1326.893s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yeon/ros2_workspace/src/ros2_ws/install/movesim/share/movesim/package.dsv'
+[1326.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/movesim/share/movesim/package.sh'
+[1326.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/movesim/share/movesim/package.bash'
+[1326.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/movesim/share/movesim/package.zsh'
+[1326.909s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yeon/ros2_workspace/src/ros2_ws/install/movesim/share/colcon-core/packages/movesim)
+[1326.920s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yeon/ros2_workspace/src/ros2_ws/topic_final' with build type 'ament_cmake'
+[1326.922s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yeon/ros2_workspace/src/ros2_ws/topic_final'
+[1326.925s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1326.926s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1327.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeon/ros2_workspace/src/ros2_ws/build/topic_final': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yeon/ros2_workspace/src/ros2_ws/topic_final -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final
+[1339.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeon/ros2_workspace/src/ros2_ws/build/topic_final' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yeon/ros2_workspace/src/ros2_ws/topic_final -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final
+[1339.709s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeon/ros2_workspace/src/ros2_ws/build/topic_final': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yeon/ros2_workspace/src/ros2_ws/build/topic_final -- -j2 -l2
+[1471.349s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeon/ros2_workspace/src/ros2_ws/build/simple_pkg_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yeon/ros2_workspace/src/ros2_ws/build/simple_pkg_cpp -- -j2 -l2
+[1472.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeon/ros2_workspace/src/ros2_ws/build/simple_pkg_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yeon/ros2_workspace/src/ros2_ws/build/simple_pkg_cpp
+[1475.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeon/ros2_workspace/src/ros2_ws/build/simple_pkg_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yeon/ros2_workspace/src/ros2_ws/build/simple_pkg_cpp
+[1475.308s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_pkg_cpp)
+[1475.369s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp' for CMake module files
+[1475.379s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp' for CMake config files
+[1475.386s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_pkg_cpp', 'cmake_prefix_path')
+[1475.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/hook/cmake_prefix_path.ps1'
+[1475.453s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/hook/cmake_prefix_path.dsv'
+[1475.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/hook/cmake_prefix_path.sh'
+[1475.498s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp/lib'
+[1475.499s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp/bin'
+[1475.500s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp/lib/pkgconfig/simple_pkg_cpp.pc'
+[1475.520s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp/lib/python3.10/site-packages'
+[1475.521s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp/bin'
+[1475.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/package.ps1'
+[1475.536s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/package.dsv'
+[1475.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/package.sh'
+[1475.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/package.bash'
+[1475.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/package.zsh'
+[1475.570s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp/share/colcon-core/packages/simple_pkg_cpp)
+[1476.749s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_pkg_cpp)
+[1476.754s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp' for CMake module files
+[1476.767s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp' for CMake config files
+[1476.776s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_pkg_cpp', 'cmake_prefix_path')
+[1476.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/hook/cmake_prefix_path.ps1'
+[1476.782s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/hook/cmake_prefix_path.dsv'
+[1476.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/hook/cmake_prefix_path.sh'
+[1476.790s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp/lib'
+[1476.790s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp/bin'
+[1476.790s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp/lib/pkgconfig/simple_pkg_cpp.pc'
+[1476.791s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp/lib/python3.10/site-packages'
+[1476.792s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp/bin'
+[1476.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/package.ps1'
+[1476.800s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/package.dsv'
+[1476.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/package.sh'
+[1476.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/package.bash'
+[1476.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/package.zsh'
+[1476.811s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yeon/ros2_workspace/src/ros2_ws/install/simple_pkg_cpp/share/colcon-core/packages/simple_pkg_cpp)
+[1476.839s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yeon/ros2_workspace/src/ros2_ws/arithmetic' with build type 'ament_cmake'
+[1476.843s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yeon/ros2_workspace/src/ros2_ws/arithmetic'
+[1476.847s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1476.847s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1477.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeon/ros2_workspace/src/ros2_ws/build/arithmetic': AMENT_PREFIX_PATH=/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example:/home/yeon/ros2_workspace/install/turtlebot3_simulations:/home/yeon/ros2_workspace/install/turtlebot3_gazebo:/home/yeon/ros2_workspace/install/turtlebot3_fake_node:/home/yeon/ros2_workspace/install/topic_final:/home/yeon/ros2_workspace/install/simple_pkg_cpp:/home/yeon/ros2_workspace/install/movesim:/home/yeon/ros2_workspace/install/arithmetic:/home/yeon/ros2_workspace/install/interface_example:/opt/ros/humble LD_LIBRARY_PATH=/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/lib:/home/yeon/ros2_workspace/install/interface_example/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/yeon/ros2_workspace/src/ros2_ws/arithmetic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic
+[1496.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeon/ros2_workspace/src/ros2_ws/build/arithmetic' returned '0': AMENT_PREFIX_PATH=/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example:/home/yeon/ros2_workspace/install/turtlebot3_simulations:/home/yeon/ros2_workspace/install/turtlebot3_gazebo:/home/yeon/ros2_workspace/install/turtlebot3_fake_node:/home/yeon/ros2_workspace/install/topic_final:/home/yeon/ros2_workspace/install/simple_pkg_cpp:/home/yeon/ros2_workspace/install/movesim:/home/yeon/ros2_workspace/install/arithmetic:/home/yeon/ros2_workspace/install/interface_example:/opt/ros/humble LD_LIBRARY_PATH=/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/lib:/home/yeon/ros2_workspace/install/interface_example/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/yeon/ros2_workspace/src/ros2_ws/arithmetic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic
+[1496.749s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeon/ros2_workspace/src/ros2_ws/build/arithmetic': AMENT_PREFIX_PATH=/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example:/home/yeon/ros2_workspace/install/turtlebot3_simulations:/home/yeon/ros2_workspace/install/turtlebot3_gazebo:/home/yeon/ros2_workspace/install/turtlebot3_fake_node:/home/yeon/ros2_workspace/install/topic_final:/home/yeon/ros2_workspace/install/simple_pkg_cpp:/home/yeon/ros2_workspace/install/movesim:/home/yeon/ros2_workspace/install/arithmetic:/home/yeon/ros2_workspace/install/interface_example:/opt/ros/humble LD_LIBRARY_PATH=/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/lib:/home/yeon/ros2_workspace/install/interface_example/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yeon/ros2_workspace/src/ros2_ws/build/arithmetic -- -j2 -l2
+[2037.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeon/ros2_workspace/src/ros2_ws/build/topic_final' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yeon/ros2_workspace/src/ros2_ws/build/topic_final -- -j2 -l2
+[2037.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeon/ros2_workspace/src/ros2_ws/build/topic_final': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yeon/ros2_workspace/src/ros2_ws/build/topic_final
+[2040.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeon/ros2_workspace/src/ros2_ws/build/topic_final' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yeon/ros2_workspace/src/ros2_ws/build/topic_final
+[2040.343s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(topic_final)
+[2040.429s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final' for CMake module files
+[2040.442s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final' for CMake config files
+[2040.452s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_final', 'cmake_prefix_path')
+[2040.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/share/topic_final/hook/cmake_prefix_path.ps1'
+[2040.520s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/share/topic_final/hook/cmake_prefix_path.dsv'
+[2040.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/share/topic_final/hook/cmake_prefix_path.sh'
+[2040.566s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/lib'
+[2040.567s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/bin'
+[2040.568s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/lib/pkgconfig/topic_final.pc'
+[2040.590s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/lib/python3.10/site-packages'
+[2040.591s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/bin'
+[2040.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/share/topic_final/package.ps1'
+[2040.611s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/share/topic_final/package.dsv'
+[2040.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/share/topic_final/package.sh'
+[2040.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/share/topic_final/package.bash'
+[2040.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/share/topic_final/package.zsh'
+[2040.642s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/share/colcon-core/packages/topic_final)
+[2041.282s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(topic_final)
+[2041.284s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final' for CMake module files
+[2041.285s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final' for CMake config files
+[2041.289s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_final', 'cmake_prefix_path')
+[2041.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/share/topic_final/hook/cmake_prefix_path.ps1'
+[2041.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/share/topic_final/hook/cmake_prefix_path.dsv'
+[2041.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/share/topic_final/hook/cmake_prefix_path.sh'
+[2041.304s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/lib'
+[2041.304s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/bin'
+[2041.304s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/lib/pkgconfig/topic_final.pc'
+[2041.305s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/lib/python3.10/site-packages'
+[2041.306s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/bin'
+[2041.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/share/topic_final/package.ps1'
+[2041.311s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/share/topic_final/package.dsv'
+[2041.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/share/topic_final/package.sh'
+[2041.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/share/topic_final/package.bash'
+[2041.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/share/topic_final/package.zsh'
+[2041.328s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yeon/ros2_workspace/src/ros2_ws/install/topic_final/share/colcon-core/packages/topic_final)
+[2115.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeon/ros2_workspace/src/ros2_ws/build/arithmetic' returned '0': AMENT_PREFIX_PATH=/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example:/home/yeon/ros2_workspace/install/turtlebot3_simulations:/home/yeon/ros2_workspace/install/turtlebot3_gazebo:/home/yeon/ros2_workspace/install/turtlebot3_fake_node:/home/yeon/ros2_workspace/install/topic_final:/home/yeon/ros2_workspace/install/simple_pkg_cpp:/home/yeon/ros2_workspace/install/movesim:/home/yeon/ros2_workspace/install/arithmetic:/home/yeon/ros2_workspace/install/interface_example:/opt/ros/humble LD_LIBRARY_PATH=/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/lib:/home/yeon/ros2_workspace/install/interface_example/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yeon/ros2_workspace/src/ros2_ws/build/arithmetic -- -j2 -l2
+[2115.518s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeon/ros2_workspace/src/ros2_ws/build/arithmetic': AMENT_PREFIX_PATH=/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example:/home/yeon/ros2_workspace/install/turtlebot3_simulations:/home/yeon/ros2_workspace/install/turtlebot3_gazebo:/home/yeon/ros2_workspace/install/turtlebot3_fake_node:/home/yeon/ros2_workspace/install/topic_final:/home/yeon/ros2_workspace/install/simple_pkg_cpp:/home/yeon/ros2_workspace/install/movesim:/home/yeon/ros2_workspace/install/arithmetic:/home/yeon/ros2_workspace/install/interface_example:/opt/ros/humble LD_LIBRARY_PATH=/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/lib:/home/yeon/ros2_workspace/install/interface_example/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yeon/ros2_workspace/src/ros2_ws/build/arithmetic
+[2115.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeon/ros2_workspace/src/ros2_ws/build/arithmetic' returned '0': AMENT_PREFIX_PATH=/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example:/home/yeon/ros2_workspace/install/turtlebot3_simulations:/home/yeon/ros2_workspace/install/turtlebot3_gazebo:/home/yeon/ros2_workspace/install/turtlebot3_fake_node:/home/yeon/ros2_workspace/install/topic_final:/home/yeon/ros2_workspace/install/simple_pkg_cpp:/home/yeon/ros2_workspace/install/movesim:/home/yeon/ros2_workspace/install/arithmetic:/home/yeon/ros2_workspace/install/interface_example:/opt/ros/humble LD_LIBRARY_PATH=/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/lib:/home/yeon/ros2_workspace/install/interface_example/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/yeon/ros2_workspace/src/ros2_ws/install/interface_example/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yeon/ros2_workspace/src/ros2_ws/build/arithmetic
+[2115.815s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arithmetic)
+[2115.833s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic' for CMake module files
+[2115.837s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic' for CMake config files
+[2115.839s] Level 1:colcon.colcon_core.shell:create_environment_hook('arithmetic', 'cmake_prefix_path')
+[2115.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic/share/arithmetic/hook/cmake_prefix_path.ps1'
+[2115.860s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic/share/arithmetic/hook/cmake_prefix_path.dsv'
+[2115.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic/share/arithmetic/hook/cmake_prefix_path.sh'
+[2115.871s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic/lib'
+[2115.871s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic/bin'
+[2115.871s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic/lib/pkgconfig/arithmetic.pc'
+[2115.876s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic/lib/python3.10/site-packages'
+[2115.876s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic/bin'
+[2115.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic/share/arithmetic/package.ps1'
+[2115.879s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic/share/arithmetic/package.dsv'
+[2115.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic/share/arithmetic/package.sh'
+[2115.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic/share/arithmetic/package.bash'
+[2115.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic/share/arithmetic/package.zsh'
+[2115.887s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic/share/colcon-core/packages/arithmetic)
+[2115.940s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arithmetic)
+[2115.940s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic' for CMake module files
+[2115.941s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic' for CMake config files
+[2115.941s] Level 1:colcon.colcon_core.shell:create_environment_hook('arithmetic', 'cmake_prefix_path')
+[2115.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic/share/arithmetic/hook/cmake_prefix_path.ps1'
+[2115.942s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic/share/arithmetic/hook/cmake_prefix_path.dsv'
+[2115.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic/share/arithmetic/hook/cmake_prefix_path.sh'
+[2115.943s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic/lib'
+[2115.943s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic/bin'
+[2115.943s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic/lib/pkgconfig/arithmetic.pc'
+[2115.944s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic/lib/python3.10/site-packages'
+[2115.944s] Level 1:colcon.colcon_core.environment:checking '/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic/bin'
+[2115.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic/share/arithmetic/package.ps1'
+[2115.946s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic/share/arithmetic/package.dsv'
+[2115.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic/share/arithmetic/package.sh'
+[2115.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic/share/arithmetic/package.bash'
+[2115.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic/share/arithmetic/package.zsh'
+[2115.952s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yeon/ros2_workspace/src/ros2_ws/install/arithmetic/share/colcon-core/packages/arithmetic)
+[2115.961s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2115.968s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2115.969s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2115.971s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2116.051s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2116.051s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2116.051s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2116.584s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2116.586s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yeon/ros2_workspace/src/ros2_ws/install/local_setup.ps1'
+[2116.590s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yeon/ros2_workspace/src/ros2_ws/install/_local_setup_util_ps1.py'
+[2116.592s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yeon/ros2_workspace/src/ros2_ws/install/setup.ps1'
+[2116.599s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yeon/ros2_workspace/src/ros2_ws/install/local_setup.sh'
+[2116.603s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yeon/ros2_workspace/src/ros2_ws/install/_local_setup_util_sh.py'
+[2116.603s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yeon/ros2_workspace/src/ros2_ws/install/setup.sh'
+[2116.610s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yeon/ros2_workspace/src/ros2_ws/install/local_setup.bash'
+[2116.611s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yeon/ros2_workspace/src/ros2_ws/install/setup.bash'
+[2116.617s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yeon/ros2_workspace/src/ros2_ws/install/local_setup.zsh'
+[2116.619s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yeon/ros2_workspace/src/ros2_ws/install/setup.zsh'
